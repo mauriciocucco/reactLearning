@@ -7,6 +7,7 @@ export const CountContextProvider = ({ children }) => {
 
   const objetoDesdeContext = {
     count: 2689,
+    funcionSuma: (a, b) => a + b,
   };
 
   return (
